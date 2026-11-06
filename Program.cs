@@ -19,6 +19,7 @@
         static void Akasztófa()
         {
             string kitalalandoSzo = Kivalasztas();
+            //Hliva Tamás Mátyás
             string eddigiTalalatok = new string('_', kitalalandoSzo.Length);
             int tippekSzama = 0;
             string eddigiBetuk = "";
@@ -29,7 +30,6 @@
                 {
                     Console.WriteLine("Ezt a betűt már próbáltad!");
                     Console.WriteLine("\t" + eddigiTalalatok);
-                    continue;
                 }
                 else if (kitalalandoSzo.Contains(betu))
                 {
